@@ -1,25 +1,74 @@
-import React from "react";
-import "./App.css";
-import Skills from "./components/Skills";
-import Home from "./components/Home";
-import About from "./components/About";
-import Navbar from "./components/Navbar";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+// // import Home from '../src/components/Home'
+// // import Navbar from '../src/components/Navbar'
+// // import { useEffect } from "react";
+// // import styles from "./App.module.css";
 
-function App() {
+// // export default function App() {
+// //   useEffect(() => {
+// //     const navbar = document.querySelector(".navbar");
+// //     const home = document.querySelector("#home");
+
+// //     if (navbar && home) {
+// //       home.style.marginTop = navbar.offsetHeight + "px";
+// //     }
+// //   }, []);
+
+// //   return (
+// //      <div className={styles.appContainer}>
+// //        <div className="overlay"></div>
+// //       <Navbar />
+// //       <section id="home">
+// //         <Home />
+// //       </section>
+// //     </div>
+// //   );
+// // }
+
+import Home from '../src/components/Home'
+import Navbar from '../src/components/Navbar'
+import { useEffect } from "react";
+
+export default function App() {
+  useEffect(() => {
+    const navbar = document.querySelector(".navbar");
+    const home = document.querySelector("#home");
+
+    if (navbar && home) {
+      home.style.marginTop = navbar.offsetHeight + "px";
+    }
+  }, []);
+
   return (
-    <div style={{ margin: 0, padding: 0 }}>
+    <>
       <Navbar />
-      <section id="home"><Home /></section>
-      <section id="about"><About /></section>
-      <section id="experience"><Experience /></section>
-      <section id="skills"><Skills /></section>
-      <section id="projects"><Projects /></section>
-      <section id="contact"><Contact /></section>
-    </div>
+      <section id="home">
+        <Home />
+      </section>
+  </>
   );
 }
 
-export default App;
+// import Home from '../src/components/Home'
+// import Navbar from '../src/components/Navbar'
+// import { useEffect } from "react";
+// import styles from "./App.module.css";
+
+// export default function App() {
+//   useEffect(() => {
+//     const navbar = document.querySelector(".navbar");
+//     const home = document.querySelector("#home");
+
+//     if (navbar && home) {
+//       home.style.marginTop = navbar.offsetHeight + "px";
+//     }
+//   }, []);
+
+//   return (
+//     <div className={styles.appContainer}>
+//       <Navbar />
+//       <section id="home">
+//         <Home />
+//       </section>
+//     </div>
+//   );
+// }
