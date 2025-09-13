@@ -1,4 +1,3 @@
-import React from "react";
 import "./SocialOverView.css";
 
 export default function SocialOverView() {
