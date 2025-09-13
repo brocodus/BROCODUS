@@ -3,7 +3,6 @@ import "./SocialOverView.css";
 export default function SocialOverView() {
   return (
     <div className="app">
-      {/* Section: Code Smarter */}
       <section className="practice-section">
         <h2>Code Smarter with Real-World Practice</h2>
         <p>
@@ -49,7 +48,6 @@ export default function SocialOverView() {
         </div>
       </section>
 
-      {/* Section: Stats */}
       <section className="stats-section">
         <h2>Empowering Aspiring Developers to Build Their Future in Tech!</h2>
         <div className="stats-container">
