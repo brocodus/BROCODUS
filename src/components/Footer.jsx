@@ -1,5 +1,3 @@
-// src/components/Footer.jsx
-// import { FaGithub, FaTwitter, FaYoutube, FaFacebook } from "react-icons/fa";
 import "./Footer.css";
 
 export default function Footer() {
@@ -42,11 +40,18 @@ export default function Footer() {
           <h3>Social</h3>
           <ul>
             <li><a href="https://github.com/brocodus">GitHub</a></li>
-            <li> <a href="https://x.com/Brocodus">Twitter (X)</a></li>
+            <li><a href="https://x.com/Brocodus">Twitter (X)</a></li>
             <li><a href="https://www.youtube.com/@BroCodus">YouTube</a></li>
-            <li><a href="https://www.facebook.com/people/Brocodus/61580943743990/">
-            <i className="fab fa-facebook" style={{ color: '#3b5998', fontSize: '24px' }}></i>Facebook</a></li>
-            <li><a href="https://www.linkedin.com/company/brocodus/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li>
+              <a href="https://www.facebook.com/people/Brocodus/61580943743990/">
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/brocodus/" target="_blank" rel="noreferrer">
+                LinkedIn
+              </a>
+            </li>
           </ul>
         </div>
       </div>

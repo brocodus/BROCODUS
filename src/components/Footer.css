@@ -5,12 +5,20 @@
   font-size: 14px;
 }
 
+/* Center all sections */
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 30px;
+  display: flex;                /* Use flexbox */
+  justify-content: center;      /* Center horizontally */
+  align-items: flex-start;      /* Align to top */
+  gap: 60px;                    /* Space between sections */
+  flex-wrap: wrap;              /* Wrap on small screens */
+  text-align: left;             /* Keep items left-aligned under headings */
+}
+
+.footer-section {
+  min-width: 150px;
 }
 
 .footer-section h3 {
@@ -27,9 +35,6 @@
 
 .footer-section ul li {
   margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
 }
 
 .footer-section ul li a {
