@@ -1,6 +1,6 @@
 import Home from '../src/components/Home';
 import Footer from '../src/components/Footer';
-import SocialOverView from './components/SocialOverView'; // FIXED case
+import SocialOverView from './components/socialOverView';
 
 export default function App() {
   return (
