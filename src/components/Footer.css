@@ -10,7 +10,7 @@
   max-width: 1200px;
   margin: 0 auto;
   display: flex;                /* Use flexbox */
-  justify-content: center;      /* Center horizontally */
+  justify-content: center;     
   align-items: flex-start;      /* Align to top */
   gap: 60px;                    /* Space between sections */
   flex-wrap: wrap;              /* Wrap on small screens */

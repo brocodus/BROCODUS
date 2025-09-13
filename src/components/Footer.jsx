@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-container">
         {/* Main */}
-        <div className="footer-section">
+        {/* <div className="footer-section">
           <h3>Main</h3>
           <ul>
             <li><a href="#home">Home</a></li>
@@ -13,27 +13,27 @@ export default function Footer() {
             <li><a href="#">Work With Us</a></li>
             <li><a href="#">My Gear</a></li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Learn */}
-        <div className="footer-section">
+        {/* <div className="footer-section">
           <h3>Learn</h3>
           <ul>
             <li><a href="#">Courses</a></li>
             <li><a href="#">Tutorials</a></li>
             <li><a href="#">Notes</a></li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Legal */}
-        <div className="footer-section">
+        {/* <div className="footer-section">
           <h3>Legal</h3>
           <ul>
             <li><a href="#">Terms</a></li>
             <li><a href="#">Privacy</a></li>
             <li><a href="#">Refund</a></li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Social */}
         <div className="footer-section">
