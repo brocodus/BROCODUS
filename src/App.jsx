@@ -25,6 +25,7 @@
 // // }
 
 import Home from '../src/components/Home'
+import Footer from '../src/components/Footer'
 import Navbar from '../src/components/Navbar'
 import { useEffect } from "react";
 
@@ -43,6 +44,7 @@ export default function App() {
       <Navbar />
       <section id="home">
         <Home />
+         <Footer />
       </section>
   </>
   );
