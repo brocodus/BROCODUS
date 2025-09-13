@@ -15,7 +15,7 @@ export default function SocialOverView() {
 
         <div className="cards-container">
           <div className="card">
-            <img src="src/assets/webDev.png" alt="Web Dev" />
+            <img src="/src/assets/webDev.png" alt="Web Dev" />
             <div className="card-content">
               <h3>Web Development</h3>
               <p>
@@ -26,7 +26,7 @@ export default function SocialOverView() {
           </div>
 
           <div className="card">
-            <img src="src/assets/dataScience.png" alt="AI" />
+            <img src="/src/assets/dataScience.png" alt="AI" />
             <div className="card-content">
               <h3>Data Science & AI</h3>
               <p>
@@ -37,7 +37,7 @@ export default function SocialOverView() {
           </div>
 
           <div className="card">
-            <img src="src/assets/dsa.png" alt="DSA" />
+            <img src="/src/assets/dsa.png" alt="DSA" />
             <div className="card-content">
               <h3>Data Structures & Algorithms</h3>
               <p>
@@ -62,7 +62,7 @@ export default function SocialOverView() {
             <p>students trained</p>
           </div>
           <div className="stat-box">
-            <h3> 1 Million+</h3>
+            <h3>1 Million+</h3>
             <p>views and counting</p>
           </div>
         </div>

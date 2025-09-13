@@ -8,7 +8,7 @@ export default function App() {
     <>
       <section id="home">
         <Home />
-        <SocialOverView/>
+       <SocialOverView />
          <Footer />
       </section>
   </>
