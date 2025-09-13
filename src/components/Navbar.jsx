@@ -11,13 +11,13 @@ export default function Navbar() {
         <img src={myPhoto} alt="BROCODUS" className="profile-img-nav" />
            <ul className={`nav-links ${isOpen ? "open" : ""}`}>
               <li><a href="#Home">Home</a></li>
-        {/* <li><a href="#">Courses</a></li>
+        <li><a href="#">Courses</a></li>
         <li><a href="#">Tutorials</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Notes</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="#">Live Learning <span className="new-badge">New</span></a></li>
-        <li><a href="#">For Business</a></li> */}
+        <li><a href="#">For Business</a></li>
       </ul>
       </div>
 
@@ -26,9 +26,9 @@ export default function Navbar() {
 
       {/* Right side buttons */}
       <div className="nav-actions">
-        {/* <button className="search">🔍</button>
+        <button className="search">🔍</button>
         <a href="#" className="login">Log In</a>
-        <button className="signup">Sign Up</button> */}
+        <button className="signup">Sign Up</button>
 
         {/* Hamburger */}
         <div className={`hamburger ${isOpen ? "open" : ""}`} onClick={() => setIsOpen(!isOpen)}>

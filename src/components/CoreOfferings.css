@@ -1,0 +1,58 @@
+.core-offerings {
+  text-align: center;
+  padding: 60px 20px;
+  background: #111; /* dark background */
+  color: #fff;
+}
+
+.section-subtitle {
+  font-size: 0.95rem;
+  color: #bbb;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.offerings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.offering-card {
+  background: #222;
+  padding: 35px 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.offering-card:hover {
+  transform: translateY(-6px);
+  background: #333;
+}
+
+.offering-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #eee;
+}
+
+.offering-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.offering-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #aaa;
+}

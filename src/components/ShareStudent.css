@@ -1,0 +1,48 @@
+.share-student {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #111; /* dark background */
+  color: #fff;
+}
+
+.share-student h2 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.company-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.company-card {
+  background: #222;
+  padding: 25px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.company-card span {
+  color: #aaa;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.company-card:hover {
+  transform: translateY(-5px);
+  background: #333;
+}
+
+.more {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #aaa;
+}
