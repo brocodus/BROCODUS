@@ -1,6 +1,6 @@
 import Home from '../src/components/Home';
 import Footer from '../src/components/Footer';
-import SocialOverView from './components/socialOverView';
+import SocialOverView from './components/SocialOverView';
 
 export default function App() {
   return (
