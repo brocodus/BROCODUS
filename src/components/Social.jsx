@@ -1,4 +1,8 @@
 import "./SocialOverView.css";
+import webDev from "../assets/webDev.png";
+import dataScience from "../assets/dataScience.png";
+import dsa from "../assets/dsa.png";
+
 
 export default function SocialOverView() {
   return (
@@ -14,7 +18,7 @@ export default function SocialOverView() {
 
         <div className="cards-container">
           <div className="card">
-            <img src="/src/assets/webDev.png" alt="Web Dev" />
+            <img src={webDev} alt="Web Dev" />
             <div className="card-content">
               <h3>Web Development</h3>
               <p>
@@ -25,7 +29,7 @@ export default function SocialOverView() {
           </div>
 
           <div className="card">
-            <img src="/src/assets/dataScience.png" alt="AI" />
+            <img src={dataScience} alt="AI" />
             <div className="card-content">
               <h3>Data Science & AI</h3>
               <p>
@@ -36,7 +40,7 @@ export default function SocialOverView() {
           </div>
 
           <div className="card">
-            <img src="/src/assets/dsa.png" alt="DSA" />
+            <img src={dsa} alt="DSA" />
             <div className="card-content">
               <h3>Data Structures & Algorithms</h3>
               <p>
