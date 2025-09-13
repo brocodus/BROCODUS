@@ -9,9 +9,9 @@
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
-  display: flex;                /* Use flexbox */
+  display: flex;
   justify-content: center;     
-  align-items: flex-start;      /* Align to top */
+  align-items: flex-start; 
   gap: 60px;                    /* Space between sections */
   flex-wrap: wrap;              /* Wrap on small screens */
   text-align: left;             /* Keep items left-aligned under headings */
