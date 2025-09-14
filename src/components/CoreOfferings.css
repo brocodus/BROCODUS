@@ -19,9 +19,10 @@
   margin-bottom: 40px;
 }
 
+/* ✅ Max 3 columns layout */
 .offerings-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(3, 1fr); /* max 3 per row */
   gap: 25px;
   max-width: 1200px;
   margin: 0 auto;
@@ -55,4 +56,17 @@
   font-size: 0.95rem;
   line-height: 1.5;
   color: #aaa;
+}
+
+/* ✅ Responsive breakpoints */
+@media (max-width: 992px) {
+  .offerings-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 per row on tablets */
+  }
+}
+
+@media (max-width: 600px) {
+  .offerings-grid {
+    grid-template-columns: 1fr; /* 1 per row on small screens */
+  }
 }

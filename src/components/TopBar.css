@@ -1,0 +1,102 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9fa; /* light background */
+  padding: 10px 20px;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+/* Left */
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.tagline {
+  font-weight: 400;
+  color: #0a4374;
+}
+
+.apply-btn {
+  background: #0a4374;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.apply-btn:hover {
+  background: #062b4a;
+}
+
+/* Right */
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #000;
+}
+
+.contact .icon {
+  color: #28a745; /* green icons */
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+/* Social button colors */
+.social-icons a:nth-child(1) { background: #000; }  /* Instagram (black style like your screenshot) */
+.social-icons a:nth-child(2) { background: #0a66c2; } /* LinkedIn */
+.social-icons a:nth-child(3) { background: #25d366; } /* WhatsApp */
+
+.social-icons a:hover {
+  opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .topbar-right {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .apply-btn {
+    width: 100%; /* button full width on mobile */
+    text-align: center;
+  }
+}

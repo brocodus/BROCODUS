@@ -59,6 +59,7 @@ export default function Footer() {
       <div className="footer-bottom">
         Made with <span className="red">❤️</span> and <span className="coffee">☕</span> in India
       </div>
+      <p style={{paddingTop: 12}}>© 2025 BROCODUS. All rights reserved.</p>
     </footer>
   );
 }
